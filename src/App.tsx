@@ -88,7 +88,7 @@ function App() {
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center">
         <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat top-16"
           style={{
             backgroundImage:
               "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/hero.webp)",
