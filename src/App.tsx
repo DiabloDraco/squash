@@ -551,7 +551,7 @@ function App() {
               </div> */}
               <img
                 src="/logo.png"
-                className="w-3/4 h-16 mb-4 object-contain sm:w-full"
+                className="sm:w-full w-3/4 h-16 mb-4 object-contain"
                 alt="Федерация сквоша и падела"
               />
 
