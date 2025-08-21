@@ -286,7 +286,7 @@ function App() {
               <h3 className="text-xl font-semibold text-gray-900 mb-2">
                 Председатель Федерации
               </h3>
-              <p className="text-gray-600 mb-4">Имя Фамилия</p>
+              {/* <p className="text-gray-600 mb-4">Имя Фамилия</p> */}
               <p className="text-sm text-gray-500">
                 Наврузов Жахонгир Эргашбаевич
               </p>
@@ -303,7 +303,7 @@ function App() {
               <h3 className="text-xl font-semibold text-gray-900 mb-2">
                 Ген. Секретарь
               </h3>
-              <p className="text-gray-600 mb-4">Имя Фамилия</p>
+              {/* <p className="text-gray-600 mb-4">Имя Фамилия</p> */}
               <p className="text-sm text-gray-500">
                 Эргашев Камолиддин Шавкатович
               </p>
