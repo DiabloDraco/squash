@@ -126,9 +126,9 @@ function App() {
                 один из которых – сквош - уже вступил в олимпийскую семью, а
                 второй - падел – считается одним из главных кандидатов на
                 пополнения списка олимпийских видов спорта. В нашей стране есть
-                все условия и предпосылки для того чтобы сквош и падел стали
+                все условия и предпосылки для того, чтобы сквош и падел стали
                 очень популярными на любительском уровне, а также получили
-                достойное место на уровне спорта высоких достижений. Одной из
+                достойное место на уровне спорта высоких достижений.. Одной из
                 важнейших целей ставим лидерство Узбекистана в данных видах
                 спорта среди стран Центральной Азии и успешное представление на
                 Азиатской и мировой арене.
@@ -136,7 +136,7 @@ function App() {
             </div>
             <div className="relative">
               <img
-                src="/squash-player.jpg"
+                src="/hero2.jpg"
                 alt="Игроки в сквош"
                 className="w-full h-96 object-cover rounded-2xl shadow-2xl"
               />
@@ -274,7 +274,7 @@ function App() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+          <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8 mb-16">
             <div className="bg-white p-8 rounded-2xl shadow-lg text-center">
               <div className="w-24 h-24 bg-gradient-to-r from-green-500 to-blue-500 rounded-full mx-auto mb-6 flex items-center justify-center">
                 <img
@@ -404,7 +404,7 @@ function App() {
               <div className="flex items-center gap-3 mb-4">
                 <MapPin className="w-6 h-6 text-green-600" />
                 <h3 className="text-xl font-semibold text-gray-900">
-                  Befit Eco
+                  Befit Eco (сквош и падел)
                 </h3>
               </div>
               <p className="text-gray-600 mb-3">
@@ -424,7 +424,7 @@ function App() {
               <div className="flex items-center gap-3 mb-4">
                 <MapPin className="w-6 h-6 text-green-600" />
                 <h3 className="text-xl font-semibold text-gray-900">
-                  Befit Sky
+                  Befit Sky (падел)
                 </h3>
               </div>
               <p className="text-gray-600 mb-3">
@@ -449,7 +449,7 @@ function App() {
                 </h3>
               </div>
               <p className="text-gray-600 mb-3">
-                Ташкент, Юнусабадский район,ул. Ифтихор, 1
+                г. Ташкент, Юнусабадский район,ул. Ифтихор, 1
               </p>
               <div className="space-y-2">
                 <div className="flex items-center gap-2">
@@ -468,7 +468,7 @@ function App() {
                   Padel.Uz – Gallereya
                 </h3>
               </div>
-              <p className="text-gray-600 mb-3">улица Рихсили •</p>
+              <p className="text-gray-600 mb-3">г. Ташкент, улица Рихсили •</p>
               <div className="space-y-2">
                 <div className="flex items-center gap-2">
                   <Phone className="w-4 h-4 text-blue-600" />
@@ -485,12 +485,33 @@ function App() {
                   Padel.Uz – Humo Arena
                 </h3>
               </div>
-              <p className="text-gray-600 mb-3">Beshyogoch ko'chasi •</p>
+              <p className="text-gray-600 mb-3">
+                г. Ташкент, Beshyogoch ko'chasi •
+              </p>
               <div className="space-y-2">
                 <div className="flex items-center gap-2">
                   <Phone className="w-4 h-4 text-blue-600" />
                   <span className="text-sm text-gray-600">
                     +998 77 495 80 00
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div className="bg-white p-6 rounded-xl shadow-lg">
+              <div className="flex items-center gap-3 mb-4">
+                <MapPin className="w-6 h-6 text-green-600" />
+                <h3 className="text-xl font-semibold text-gray-900">
+                  Savage Sports Club (сквош)
+                </h3>
+              </div>
+              <p className="text-gray-600 mb-3">
+                Ташкент, Юнусабадский район,ул. Ифтихор, 120
+              </p>
+              <div className="space-y-2">
+                <div className="flex items-center gap-2">
+                  <Phone className="w-4 h-4 text-blue-600" />
+                  <span className="text-sm text-gray-600">
+                    +998 98 277 11 66
                   </span>
                 </div>
               </div>
@@ -505,7 +526,7 @@ function App() {
           className="absolute inset-0 bg-cover bg-center"
           style={{
             backgroundImage:
-              "linear-gradient(135deg, rgba(16, 185, 129, 0.9), rgba(59, 130, 246, 0.9)), url(https://images.pexels.com/photos/8007392/pexels-photo-8007392.jpeg?auto=compress&cs=tinysrgb&w=1920)",
+              "linear-gradient(135deg, rgba(16, 185, 129, 0.9), rgba(59, 130, 246, 0.9)), url(/join.jpg)",
           }}
         ></div>
         <div className="relative z-10 max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
