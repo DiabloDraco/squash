@@ -91,7 +91,7 @@ function App() {
           className="absolute inset-0 bg-cover bg-center bg-no-repeat top-16"
           style={{
             backgroundImage:
-              "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/hero.webp)",
+              "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/hero2.jpg)",
           }}
         ></div>
         <div className="relative z-10 text-center text-white max-w-5xl mx-auto px-4">
@@ -136,7 +136,7 @@ function App() {
             </div>
             <div className="relative">
               <img
-                src="/hero2.jpg"
+                src="/squash-player.jpg"
                 alt="Игроки в сквош"
                 className="w-full h-96 object-cover rounded-2xl shadow-2xl"
               />
