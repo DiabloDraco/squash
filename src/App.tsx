@@ -88,14 +88,14 @@ function App() {
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center">
         <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat top-20"
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat top-16"
           style={{
             backgroundImage:
               "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/hero2.jpg)",
           }}
         ></div>
         <div className="relative z-10 text-center text-white max-w-5xl mx-auto px-4">
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-10 leading-tight">
             Федерация сквоша и
             <span className="block text-green-400">падела Узбекистана</span>
           </h1>
