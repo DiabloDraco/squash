@@ -39,8 +39,8 @@ function App() {
               </span>
             </div> */}
             <img
-              src="/logo.png"
-              className="w-20 h-8  object-cover"
+              src="/logo1.png"
+              className="w-22 h-8  object-cover"
               alt="Федерация сквоша и падела"
             />
             <div className="hidden md:flex space-x-6">
@@ -571,7 +571,7 @@ function App() {
                 </span>
               </div> */}
               <img
-                src="/logo.png"
+                src="/logo-white.png"
                 className="w-3/4 h-16 mb-4 object-contain sm:w-full"
                 alt="Федерация сквоша и падела"
               />
